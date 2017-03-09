@@ -1,0 +1,257 @@
+/* LAYOUT IE8 AND LOWER */
+.rt-row {
+  display: table;
+  width: 100%;
+}
+.rt-row > dl {
+  display: table-cell;
+}
+.rt-row > dl:before {
+  content: "";
+  float: left;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+}
+.rt-row > dl > dt {
+  display: none;
+}
+.rt-row > dl > dd {
+  width: 50%;
+  display: table-cell;
+  height: 100%;
+}
+.rt-head {
+  display: block;
+  position: relative;
+}
+.rt-head > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: table;
+  width: 100%;
+}
+.rt-head > ul > li {
+  display: table-cell;
+  vertical-align: middle;
+}
+.rt-head > ul > li:before {
+  content: "";
+  float: left;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+}
+/* columns */
+/* 12 */
+.cols-12 .col-12 {
+  width: 100%;
+}
+.cols-12 .col-11 {
+  width: 92%;
+}
+.cols-12 .col-10 {
+  width: 83%;
+}
+.cols-12 .col-9 {
+  width: 75%;
+}
+.cols-12 .col-8 {
+  width: 67%;
+}
+.cols-12 .col-7 {
+  width: 58%;
+}
+.cols-12 .col-6 {
+  width: 50%;
+}
+.cols-12 .col-5 {
+  width: 42%;
+}
+.cols-12 .col-4 {
+  width: 33%;
+}
+.cols-12 .col-3 {
+  width: 25%;
+}
+.cols-12 .col-2 {
+  width: 17%;
+}
+.cols-12 .col-1 {
+  width: 8%;
+}
+/* 15 */
+.cols-15 .col-15 {
+  width: 100%;
+}
+.cols-15 .col-14 {
+  width: 93%;
+}
+.cols-15 .col-13 {
+  width: 87%;
+}
+.cols-15 .col-12 {
+  width: 80%;
+}
+.cols-15 .col-11 {
+  width: 73%;
+}
+.cols-15 .col-10 {
+  width: 67%;
+}
+.cols-15 .col-9 {
+  width: 60%;
+}
+.cols-15 .col-8 {
+  width: 53%;
+}
+.cols-15 .col-7 {
+  width: 47%;
+}
+.cols-15 .col-6 {
+  width: 40%;
+}
+.cols-15 .col-5 {
+  width: 33%;
+}
+.cols-15 .col-4 {
+  width: 27%;
+}
+.cols-15 .col-3 {
+  width: 20%;
+}
+.cols-15 .col-2 {
+  width: 13%;
+}
+.cols-15 .col-1 {
+  width: 7%;
+}
+/* 30 */
+.cols-30 .col-30 {
+  width: 100%;
+}
+.cols-30 .col-29 {
+  width: 97%;
+}
+.cols-30 .col-28 {
+  width: 93%;
+}
+.cols-30 .col-27 {
+  width: 90%;
+}
+.cols-30 .col-26 {
+  width: 87%;
+}
+.cols-30 .col-25 {
+  width: 83%;
+}
+.cols-30 .col-24 {
+  width: 80%;
+}
+.cols-30 .col-23 {
+  width: 77%;
+}
+.cols-30 .col-22 {
+  width: 73%;
+}
+.cols-30 .col-21 {
+  width: 70%;
+}
+.cols-30 .col-20 {
+  width: 67%;
+}
+.cols-30 .col-19 {
+  width: 63%;
+}
+.cols-30 .col-18 {
+  width: 60%;
+}
+.cols-30 .col-17 {
+  width: 57%;
+}
+.cols-30 .col-16 {
+  width: 53%;
+}
+.cols-30 .col-15 {
+  width: 50%;
+}
+.cols-30 .col-14 {
+  width: 47%;
+}
+.cols-30 .col-13 {
+  width: 43%;
+}
+.cols-30 .col-12 {
+  width: 40%;
+}
+.cols-30 .col-11 {
+  width: 37%;
+}
+.cols-30 .col-10 {
+  width: 33%;
+}
+.cols-30 .col-9 {
+  width: 30%;
+}
+.cols-30 .col-8 {
+  width: 27%;
+}
+.cols-30 .col-7 {
+  width: 23%;
+}
+.cols-30 .col-6 {
+  width: 20%;
+}
+.cols-30 .col-5 {
+  width: 17%;
+}
+.cols-30 .col-4 {
+  width: 13%;
+}
+.cols-30 .col-3 {
+  width: 10%;
+}
+.cols-30 .col-2 {
+  width: 7%;
+}
+.cols-30 .col-1 {
+  width: 3%;
+}
+/* PRESENTATION IE8 AND LOWER */
+.rt-table > li {
+  border-bottom: 1px solid #c0c0c0;
+}
+.rt-table > li.rt-head {
+  border-bottom: 1px solid #636563;
+}
+.rt-table > li.last-child {
+  border-bottom: none;
+}
+.rt-table > li > dl {
+  vertical-align: middle;
+  border-bottom: none;
+}
+.rt-head > ul > li {
+  vertical-align: middle;
+}
+.rt-head > ul > li:before {
+  background: #636563;
+  width: 1px;
+}
+.rt-head > ul > li.first-child:before {
+  display: none;
+}
+.rt-head > ul > li .col-heading {
+  padding: 10px 20px;
+  display: block;
+}
+.rt-row > dl:before {
+  background: #c0c0c0;
+  width: 1px;
+}
+.rt-row > dl.first-child:before {
+  display: none;
+}
